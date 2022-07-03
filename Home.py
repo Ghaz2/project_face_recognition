@@ -50,6 +50,7 @@ with st.container():
       st.write("##")
       st.write("##")
 
+
 #About the app
 with st.container():     
     st.write("---")
@@ -64,7 +65,7 @@ with st.container():
 
              
 
-            :link: Users can upload their images and the app will let them know the celeberity name if it is from the existing dataset or if it is unknown also it will detect faces and create bounding boxes around them!
+            :link: Users can upload their images and the app will let them know the celebrity  name if it is from the existing dataset or if it is unknown also it will detect faces and create bounding boxes around them!
              
             """)
 
@@ -85,18 +86,12 @@ with st.container():
     st.write("##")
     st.write(
             """
-
            :black_circle: Home: The first page that will be open for users. (you are seeing it now!)
-
            :black_circle: Dataset: The second page where users can see all the dataset for the application.
-
            :black_circle: Application: The third page where users can find the Marvel Heroes Face Recognition App.
-
            :black_circle: Training: The fourth page where users can find useful videos regarding Image Annotation.
-
            :black_circle: Contact: The last page where users can communicate and send me emails!
             """)
-
     st.write("##")
     st.write(
             """

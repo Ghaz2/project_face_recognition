@@ -173,10 +173,11 @@ with st.container():
          st.header("Christopher_Robert_Evans")
          st.write(
 """
-Christopher Robert Evans is an American actor, film producer, and director. Evans began his acting career in typical fashion: performing in school productions and community theatre.
+Christopher Robert Evans is an American actor, film producer, and director. Evans began his acting career in typical 
+fashion: performing in school productions and community theatre.
 
-He was born in Boston, Massachusetts, the son of Lisa (Capuano), who worked at the Concord Youth Theatre, and G. Robert Evans III, a dentist. His uncle is former U.S. Representative Mike Capuano. 
-
+He was born in Boston, Massachusetts, the son of Lisa (Capuano), who worked at the Concord Youth Theatre, and
+ G. Robert Evans III, a dentist. His uncle is former U.S. Representative Mike Capuano. 
 
 """
 )
@@ -264,7 +265,10 @@ with st.container():
          st.header("Salma_Hayek")
          st.write(
 """
- Salma Hayek was born on September 2, 1966 in Coatzacoalcos, Mexico. Her father is of Lebanese descent and her mother is of Mexican/Spanish ancestry. After having seen Willy Wonka & the Chocolate Factory (1971) in a local movie theater, she decided she wanted to become an actress. At age 12, she was sent to the Academy of the Sacred Heart
+ Salma Hayek was born on September 2, 1966 in Coatzacoalcos, Mexico. Her father is of Lebanese
+ descent and her mother is of Mexican/Spanish ancestry. After having seen Willy Wonka & the 
+ Chocolate Factory (1971) in a local movie theater, she decided she wanted to become an actress. 
+ At age 12, she was sent to the Academy of the Sacred Heart
  """
 )
 
@@ -296,7 +300,8 @@ with st.container():
          st.header("Tom_Hardy")
          st.write(
 """
- With his breakthrough performance as Eames in Christopher Nolan's sci-fi thriller Inception (2010), English actor Tom Hardy has been brought to the attention of mainstream audiences worldwide. However, the versatile actor has been steadily working on both stage and screen since his television debut in the miniseries Band of Brothers (2001)
+ With his breakthrough performance as Eames in Christopher Nolan's sci-fi thriller Inception
+(2010), English actor Tom Hardy has been brought to the attention of mainstream audiences worldwide. However, the versatile actor has been steadily working on both stage and screen since his television debut in the miniseries Band of Brothers (2001)
  """
 )
 
@@ -360,7 +365,8 @@ with st.container():
          st.header("Benedict_Cumberbatch")
          st.write(
 """
- Benedict Timothy Carlton Cumberbatch was born and raised in London, England. His parents, Wanda Ventham and Timothy Carlton (born Timothy Carlton Congdon Cumberbatch), are both actors. He is a grandson of submarine commander Henry Carlton Cumberbatch, and a great-grandson of diplomat Henry Arnold Cumberbatch CMG. 
+ Benedict Timothy Carlton Cumberbatch was born and raised in London, England. His parents, Wanda Ventham and Timothy 
+ Carlton (born Timothy Carlton Congdon Cumberbatch), are both actors. He is a grandson of submarine commander Henry Carlton Cumberbatch, and a great-grandson of diplomat Henry Arnold Cumberbatch CMG. 
  """
 )
 
