@@ -11,6 +11,12 @@ import numpy as np
 
 st.set_page_config(page_title="Marvel Heroes Face Recognition", page_icon=":sparkles:" , layout="wide")
 
+
+
+img =Image.open("777.jpg")
+st.sidebar.image(img)
+        
+
 #Removing Made with Streamlit, Hamburger Icon Menu & Streamlit Header
 hide_st_style = """
                 <style>
@@ -47,9 +53,9 @@ with st.container():
     np.left_shift, np.right_shift = st.columns(2)
     with np.left_shift:
         st.write("##")
+        st.subheader("In Marvel Heroes Face Recognition Application we have 40 dataset.")
         st.write(
             """
-            In Marvel Heroes Face Recognition Application we have 40 dataset.
             
             Users can find the dataset bellow.
 
@@ -57,11 +63,11 @@ with st.container():
 
             Each dataset contains:
 
-            :checkered_flag:  Name
+            :black_circle:  Name
           
-            :checkered_flag:  Image
+            :black_circle:  Image
     
-            :checkered_flag:  Short description
+           :black_circle: Short description
             
             """)
 

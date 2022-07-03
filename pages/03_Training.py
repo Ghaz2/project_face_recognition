@@ -13,6 +13,10 @@ import numpy as np
 st.set_page_config(page_title="Marvel Heroes Face Recognition", page_icon=":sparkles:" , layout="wide")
 
 
+img =Image.open("888.jpg")
+st.sidebar.image(img)
+st.write("This is the selected photo.")
+
 
 #Removing Made with Streamlit, Hamburger Icon Menu & Streamlit Header
 hide_st_style = """

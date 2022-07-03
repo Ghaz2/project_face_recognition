@@ -12,6 +12,10 @@ import numpy as np
 
 st.set_page_config(page_title="Marvel Heroes Face Recognition", page_icon=":sparkles:" , layout="wide")
 
+img =Image.open("hhh.jpg")
+st.sidebar.image(img)
+st.write("This is the selected photo.")
+
 
 #Animation
 def load_lottieurl(url):
@@ -51,6 +55,7 @@ with st.container():
 
         with np.right_shift:
                 st_lottie(lottie_coding, height=300, key="coding")
+
 
 
 
@@ -223,3 +228,4 @@ try:
 
 except:
     pass
+

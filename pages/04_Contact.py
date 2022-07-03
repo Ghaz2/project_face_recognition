@@ -15,6 +15,13 @@ st.set_page_config(page_title="Marvel Heroes Face Recognition", page_icon=":spar
 
 
 
+img =Image.open("Halk2.jpg")
+st.sidebar.image(img)
+
+
+
+
+
 #Removing Made with Streamlit, Hamburger Icon Menu & Streamlit Header
 hide_st_style = """
                 <style>
@@ -77,7 +84,7 @@ def load_lottieurl(url):
 
 
 #Load assets
-lottie_coding = load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_gysrp57x.json")
+lottie_coding = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_kfcwv9hc.json")
 
 with right_column:
                 st_lottie(lottie_coding, height=200, key="coding")
