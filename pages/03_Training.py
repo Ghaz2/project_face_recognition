@@ -7,7 +7,8 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_option_menu import option_menu
 import numpy as np
-
+import tkinter as TK
+import _tkinter
 
 
 st.set_page_config(page_title="Marvel Heroes Face Recognition", page_icon=":sparkles:" , layout="wide")
