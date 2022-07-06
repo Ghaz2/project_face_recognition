@@ -1,4 +1,4 @@
-from turtle import right
+
 import cv2
 import face_recognition
 from PIL import Image, ImageDraw
@@ -29,6 +29,48 @@ hide_st_style = """
                 footer {visibility: hidden;}
                 header {visibility: hidden;}
 
+                </style>
+                """
+st.markdown(hide_st_style, unsafe_allow_html=True)      
+
+
+
+
+#Contact
+with st.container():
+    st.write("---")
+    st.header("Get In Touch With Me! :email:")
+    st.write("---")
+    st.write("##")
+
+
+
+from PIL import Image, ImageDraw
+from pandas import concat
+import requests
+import streamlit as st
+
+import numpy as np
+
+
+
+st.set_page_config(page_title="Marvel Heroes Face Recognition", page_icon=":sparkles:" , layout="wide")
+
+
+
+img =Image.open("Halk2.jpg")
+st.sidebar.image(img)
+
+
+
+
+
+#Removing Made with Streamlit, Hamburger Icon Menu & Streamlit Header
+hide_st_style = """
+                <style>
+                #MainMenu {visibility: hidden;}
+                footer {visibility: hidden;}
+                header {visibility: hidden;}
                 </style>
                 """
 st.markdown(hide_st_style, unsafe_allow_html=True)      
@@ -81,10 +123,3 @@ def load_lottieurl(url):
     if r.status_code !=200:
         return None
     return r.json()  
-
-
-#Load assets
-lottie_coding = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_kfcwv9hc.json")
-
-with right_column:
-                st_lottie(lottie_coding, height=200, key="coding")

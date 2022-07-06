@@ -1,14 +1,8 @@
-
-import cv2
-import face_recognition
 from PIL import Image, ImageDraw
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
-from streamlit_option_menu import option_menu
+
 import numpy as np
-
-
 
 
 st.set_page_config(page_title="Marvel Heroes Face Recognition", page_icon=":sparkles:" , layout="wide")
@@ -24,7 +18,6 @@ hide_st_style = """
                 #MainMenu {visibility: hidden;}
                 footer {visibility: hidden;}
                 header {visibility: hidden;}
-
                 </style>
                 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
@@ -37,8 +30,7 @@ def load_lottieurl(url):
     return r.json()    
 
 
-#Load assets
-lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_av0ub7mb.json")
+
 
 
 
@@ -63,17 +55,12 @@ with st.container():
         st.write(
             """
            :link: Marvel Heroes Face Recognition App is a face recognition application build with Python.
-
              
-
             :link: Users can upload their images and the app will let them know the celeberity name if it is from the existing dataset or if it is unknown also it will detect faces and create bounding boxes around them!
              
             """)
 
-        with np.right_shift:
-                st_lottie(lottie_coding, height=300, key="coding")
-
-
+        
 
 
 
@@ -87,15 +74,10 @@ with st.container():
     st.write("##")
     st.write(
             """
-
            :black_circle: Home: The first page that will be open for users. (you are seeing it now!)
-
            :black_circle: Dataset: The second page where users can see all the dataset for the application.
-
            :black_circle: Application: The third page where users can find the Marvel Heroes Face Recognition App.
-
            :black_circle: Training: The fourth page where users can find useful videos regarding Image Annotation.
-
            :black_circle: Contact: The last page where users can communicate and send me emails!
             """)
 
@@ -108,7 +90,6 @@ with st.container():
 
 
         
-
 
 
 

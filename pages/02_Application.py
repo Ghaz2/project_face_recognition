@@ -1,5 +1,4 @@
-from turtle import right
-import cv2
+
 import face_recognition
 from PIL import Image, ImageDraw
 import requests
@@ -119,8 +118,6 @@ Willem_Dafoe  = "images/Willem_Dafoe.jpg"
 Zoe_Saldana = "images/Zoe_Saldana.jpg"
 Kim  = "images/Kim So-yeon.jpg"
 
-
-
 train_encodings(Alfred_Molina,"Alfred_Molina")
 train_encodings(Andrew_Garfield,"Andrew_Garfield")
 train_encodings(Angelina_Jolie,"Angelina_Jolie")
@@ -212,8 +209,7 @@ try:
                    st.write("\nName:", name)
                    st.write("Confidence:", round(np.amax(confidence_level),2))
 
-        
-                 # draw box
+                   # draw box
                  draw.rectangle(
                      ((leftX,topY),(rightX,bottomY)),
                      outline = (255,255,0) , width = 3)
@@ -228,4 +224,3 @@ try:
 
 except:
     pass
-

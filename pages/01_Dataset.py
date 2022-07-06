@@ -1,11 +1,7 @@
-from turtle import right
-import cv2
-import face_recognition
 from PIL import Image, ImageDraw
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
-from streamlit_option_menu import option_menu
+
 import numpy as np
 
 
@@ -23,7 +19,6 @@ hide_st_style = """
                 #MainMenu {visibility: hidden;}
                 footer {visibility: hidden;}
                 header {visibility: hidden;}
-
                 </style>
                 """
 st.markdown(hide_st_style, unsafe_allow_html=True)      
@@ -37,8 +32,7 @@ def load_lottieurl(url):
     return r.json()  
 
 
-#Load assets
-lottie_coding = load_lottieurl("https://assets8.lottiefiles.com/packages/lf20_n5icqxkw.json")
+
 
 
 #Header section
@@ -58,11 +52,7 @@ with st.container():
             """
             
             Users can find the dataset bellow.
-
-
-
             Each dataset contains:
-
             :black_circle:  Name
           
             :black_circle:  Image
@@ -72,9 +62,7 @@ with st.container():
             """)
 
 
-        with np.right_shift:
-                st_lottie(lottie_coding, height=300, key="coding")
-
+       
 
 
 
@@ -174,10 +162,7 @@ with st.container():
          st.write(
 """
 Christopher Robert Evans is an American actor, film producer, and director. Evans began his acting career in typical fashion: performing in school productions and community theatre.
-
 He was born in Boston, Massachusetts, the son of Lisa (Capuano), who worked at the Concord Youth Theatre, and G. Robert Evans III, a dentist. His uncle is former U.S. Representative Mike Capuano. 
-
-
 """
 )
 
@@ -193,7 +178,6 @@ with st.container():
          st.write(
 """
 Scarlett Ingrid Johansson was born on November 22, 1984 in Manhattan, New York City, New York. Her mother, Melanie Sloan is from a Jewish family from the Bronx and her father, Karsten Johansson is a Danish-born architect from Copenhagen. She has a sister, Vanessa Johansson, who is also an actress, a brother, Adrian, a twin brother, Hunter Johansson
-
 """
 )
 
@@ -213,8 +197,6 @@ Robert_DowneyJr )
          st.write(
 """
 Robert Downey Jr. has evolved into one of the most respected actors in Hollywood. With an amazing list of credits to his name, he has managed to stay new and fresh even after over four decades in the business. Downey was born April 4, 1965 in Manhattan, New York, the son of writer, director and filmographer Robert Downey Sr. 
-
-
 """
 )
 
@@ -805,3 +787,4 @@ with st.container():
  Born in London, England, Hayley Elizabeth Atwell has dual citizenship of the United Kingdom and the United States. An only child, Hayley was named after actress Hayley Mills. Her parents, Alison (Cain) and Grant Atwell, both motivational speakers, met at a London workshop of Dale Carnegie's self-help bible "How to Win Friends
  """
 )
+
